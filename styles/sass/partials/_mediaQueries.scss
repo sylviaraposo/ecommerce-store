@@ -1,5 +1,14 @@
 @media (max-width: 1000px) {
     /* all of our styles for smaller DESKTOP devices will go within this breakpoint */
+    .guarantees {
+        .shopOptions {
+            justify-content: space-between;
+        }
+        .guaranteeContainer {
+            width: calc(45% - 40px);
+            margin: 0 20px 40px 20px;
+        }
+    }
 }
 
 @media (max-width: 800px) {
@@ -8,4 +17,14 @@
 
 @media (max-width: 500px) {
    /* all of our styles for MOBILE devices will go within this breakpoint */
+    .guarentees {
+        .shopOptions {
+            flex-direction: column;
+            align-items: center;
+        }
+        .guaranteeContainer {
+            width: 85%;
+            margin: 0 0 50% 0;
+        }
+    }
 }

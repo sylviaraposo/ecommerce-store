@@ -102,6 +102,13 @@ p {
     &.newsletterCopy {
         font-size: 0.8rem;
     }
+    
+    &.valueTitle {
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin: 10px 0;
+    }
+
 }
 
 ul, li, a, input {
