@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awsesome link for icons -->
     <script src="https://kit.fontawesome.com/53c7aa7f31.js" crossorigin="anonymous"></script>
-    <title>Toybox Homepage</title>
+    <title>Shop Page</title>
+    <!-- Stylesheet link -->
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-
     <!-- The Announcement Bar -->
     <div class="announcements">
         <div class="wrapper">
@@ -70,106 +71,152 @@
         </div><!-- END .wrapper -->
     </nav>
 
-    <!-- HEADER STARTS -->
-    <header>
-        <div class="headerImgContainer wrapper">
-                <img src="./assets/header-image.jpg" alt="A toddler playing with colourful wooden blocks">
-        </div>
-        <div class="headerContent wrapper">
-            <div class="contentContainer">
-                <h5>Handcrafted for kids</h5>
-                <h3>Go on, let them play with wooden blocks</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odio tempore porro illum ad nihil quis?</p>
-                <button>Shop All</button>
-            </div>
-        </div>
-    </header>
+    <!-- Main Section -->
+    <main class="shop">
 
-    <!-- MAIN STARTS -->
-    <main>
-        <!-- Popular Section -->
-        <section class="popular" id="popular">
-            <div class="wrapper">
-                <div class="titleBar">
-                    <h2>Popular</h2>
-                    <button>Shop All</button>
+    <!-- Product Inventory Section -->
+    <section class="inventory" id="inventory">
+        <div class="wrapper">
+            <h2>All Products</h2>
+            <div class="product">
+                <div class="productImgContainer">
+                    <a href="#">
+                        <img src="./assets/safari-trio.jpg" alt="Hand carved safari animal toys">
+                        <p class="popularProduct">Safari Trio</p>
+                        <p class="price">$49.00USD</p>
+                    </a>
                 </div>
 
-                <div class="product">
+                <div class="productImgContainer">
+                    <a href="#">
+                        <img src="./assets/octopus.jpg" alt="Wooden Octopus Toy">
+                        <p class="popularProduct">Octopus</p>
+                        <p class="discountedPrice">$18.00USD</p>
+                        <p class="price">$15.00USD</p>
+                    </a>
+                </div>
+                
+                <div class="productImgContainer">
+                    <a href="#">
+                        <img src="./assets/crocodile.jpg" alt="Wooden Crocodile Toy">
+                        <p class="popularProduct">Crocodile</p>
+                        <p class="price">$18.00USD</p>
+                    </a>
+                </div>
 
-                    <div class="productImgContainer">
-                        <a href="#">
-                            <img src="./assets/safari-trio.jpg" alt="Hand carved safari animal toys">
-                            <p class="popularProduct">Safari Trio</p>
-                            <p class="price">$49.00USD</p>
-                        </a>
-                    </div>
+                <!-- New products here -->
+                <div class="productImgContainer">
+                    <a href="#">
+                        <img src="./assets/reef-fish.jpg" alt="Wooden Reef Fish Toy">
+                        <p class="popularProduct">Reef Fish</p>
+                        <p class="price">$49.00USD</p>
+                    </a>
+                </div>
+                <div class="productImgContainer">
+                <a href="">
+                    <img src="./assets/spinosaurus.jpg" alt="Wooden toy spinosaurus">
+                    <p class="popularProduct">Spinosaurus</p>
+                    <p class="price">$18.00USD</p>
+                </a>
+                </div>
+            
+                <div class="productImgContainer">
+                    <a href="">
+                        <img src="./assets/orca.jpg" alt="Wooden toy orca">
+                        <p class="popularProduct">Orca</p>
+                        <p class="discountedPrice">$18.00USD</p>
+                        <p class="price">$12.00USD</p>
+                    </a>
+                </div>
 
-                    <div class="productImgContainer">
-                        <a href="#">
-                            <img src="./assets/octopus.jpg" alt="Wooden Octopus Toy">
-                            <p class="popularProduct">Octopus</p>
-                            <p class="discountedPrice">$18.00USD</p>
-                            <p class="price">$15.00USD</p>
-                        </a>
-                    </div>
-                    
-                    <div class="productImgContainer">
-                        <a href="#">
-                            <img src="./assets/crocodile.jpg" alt="Wooden Crocodile Toy">
-                            <p class="popularProduct">Crocodile</p>
-                            <p class="price">$18.00USD</p>
-                        </a>
-                    </div>
-                </div><!-- END .product -->
-            </div><!-- END .wrapper -->
-        </section><!-- END POPULAR SECTION -->
+                <div class="productImgContainer">
+                    <a href="">
+                        <img src="./assets/ocean.jpg" alt="Hand-carved ocean animal toys">
+                        <p class="popularProduct">Ocean Trio</p>
+                        <p class="price">$49.00USD</p>
+                    </a>
+                </div>
+            
+                <div class="productImgContainer">
+                    <a href="">
+                        <img src="./assets/elephant.jpg" alt="Wooden toy elephant">
+                        <p class="popularProduct">Elephant</p>
+                        <p class="price">$18.00USD</p>
+                    </a>
+                </div>
+            
+                <div class="productImgContainer">
+                    <a href="">
+                        <img src="./assets/dino-trio.jpg" alt="Wooden toy dinosaurs">
+                        <p class="popularProduct">Dino Trio</p>
+                        <p class="discountedPrice">$49.00USD</p>
+                        <p class="price">$45.00USD</p>
+                    </a>
+                </div>
 
-        <!-- Play Section -->
-        <section class="play" id="play">
-            <div class="wrapper playContainer">
-                <h5>Learn through doing</h5>
-                <h3>Let them play</h3>
-                <p>Bauris eget lacus, amet mollis felis, sed posuere odio. Justo purus orci ultricies et. Sit etiam porta sed tellus. Cattis pellentesque felis tristique eget purus feugiat massa.</p>
-                <button class="solid">Learn About Us</button>
+                <div class="productImgContainer">
+                    <a href="">
+                        <img src="./assets/crocodile.jpg" alt="Hand-carved crocodile toy">
+                        <p class="popularProduct">Crocodile</p>
+                        <p class="price">$18.00USD</p>
+                    </a>
+                </div>
+            
+                <div class="productImgContainer">
+                    <a href="">
+                        <img src="./assets/brontosaurus.jpg" alt="Wooden toy brontosaurus">
+                        <p class="popularProduct">Brontosaurus</p>
+                        <p class="price">$18.00USD</p>
+                    </a>
+                </div>
+            </div><!-- END .product -->
+        </div>
+    </section>
+
+    <!-- Customer Guarentees -->
+    <section class="guarentees" id="guarentees">
+        <div class="wrapper">
+            <h5>Our customers guarentees</h5>
+
+            <!-- Container for my guarentees -->
+            <div class="shopOptions">
+                <div class="guarenteeContainer">
+                    <div class="imgContainer">
+                        <img src="./assets/dolly.svg" alt="A shipping dolly">
+                    </div>
+                    <p class="valueTitle">Express Shipping</p>
+                    <p class="newsletterCopy">Sed gravida eu ac aliquam pellentesque pharetra pharetra.</p>
+                </div>
+
+                <div class="guarenteeContainer">
+                    <div class="imgContainer">
+                        <img src="./assets/credit-card.svg" alt="Credit card">
+                    </div>
+                    <p class="valueTitle">Money-Back Guarentee</p>
+                    <p class="newsletterCopy">Sed gravida eu ac aliquam pellentesque pharetra pharetra.</p>
+                </div>
+
+                <div class="guarenteeContainer">
+                    <div class="imgContainer">
+                        <img src="./assets/shipping.svg" alt="Return package icon">
+                    </div>
+                    <p class="valueTitle">Hassle-free Returns</p>
+                    <p class="newsletterCopy">Sed gravida eu ac aliquam pellentesque pharetra pharetra.</p>
+                </div>
+
+                <div class="guarenteeContainer">
+                    <div class="imgContainer">
+                        <img src="./assets/checkout.svg" alt="Checkout screen">
+                    </div>
+                    <p class="valueTitle">Simple Checkout</p>
+                    <p class="newsletterCopy">Sed gravida eu ac aliquam pellentesque pharetra pharetra.</p>
+                </div>
             </div>
-        </section>
 
-        <!-- Categories -->
-        <section class="categories" id="categories">
-            <div class="wrapper">
-                <h2>Categories</h2>
-                <p>Explore our range of hand-made toys</p>
+        </div>
+    </section>
 
-                <div class="categoryGallery">
-                    <a href="#" class="items orange">
-                        <img src="./assets/safari-trio.jpg" alt="Wooden Safari Animal Toys">
-                        <h4>Safari</h4>
-                        <p>Land-dwelling African favourites</p>
-                    </a>
-
-                    <a href="#" class="items blue">
-                        <img src="./assets/ocean-trio.jpg" alt="Wooden Ocean Animal Toys">
-                        <h4>Ocean</h4>
-                        <p>Adorable aquatic characters</p>
-                    </a>
-
-                    <a href="#" class="items green">
-                        <img src="./assets/dinos.jpg" alt="Wooden Dinosaur Toys">
-                        <h4>Dinos</h4>
-                        <p>Meet these Prehistoric Pals</p>
-                    </a>
-
-                    <a href="#" class="items pink">
-                        <img src="./assets/sale.jpg" alt="Toddler pulling wheeled wooden animals">
-                        <h4>Sale</h4>
-                        <p>Act quickly and grab these bargains</p>
-                    </a>
-                </div><!-- END .categoryGallery -->
-            </div><!-- END .wrapper -->
-        </section>
-
-        <!-- Insta Gallery Section -->
+    <!-- Insta Gallery Section -->
         <section class="gallery" id="gallery">
             <div class="wrapper">
                 <h5>Follow Us</h5>
@@ -203,8 +250,8 @@
         </section><!-- END of INSTA GALLERY SECTION -->
     </main>
 
-    <!-- THE FOOTER!!! -->
 
+    <!-- Footer Section -->
     <footer class="footer" id="footer">
         <div class="wrapper">
             <!-- First Flex Container for Upper Elements -->
@@ -290,5 +337,7 @@
             </div><!-- END .social -->
         </div><!-- END .wrapper -->
     </footer>
+
+
 </body>
 </html>
