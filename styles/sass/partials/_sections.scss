@@ -95,3 +95,81 @@ main {
         }
     }
 }
+
+// Shop Page Section
+.shop {
+    section {
+        padding: 90px 0;
+        margin: 0;
+    }
+}
+
+/* sections.scss */
+
+/* .shop selector ENDS */
+
+.inventory {
+    h2 {
+        text-align: center;
+    }
+    .product {
+        justify-content: flex-start;
+        a {
+            display: block;
+            &:hover {
+                transform: rotateZ(2deg) translate(5px);
+            }
+            &:focus {
+                transform: rotateZ(2deg) translate(5px);
+            }
+        }
+    }
+}
+
+/* sections.scss */
+/* .inventory selector ENDS */
+
+.guarantees {
+    background-color: $quarternary;
+    position: relative;
+    text-align: center;
+    &::before {
+        content: '';
+        background-image: url(../assets/wave-3.svg);
+        background-color: $quarternary;
+        background-position: top center;
+        background-size: 1500px 60px;
+        background-repeat: repeat-x;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -60px;
+        height: 3rem;
+    }
+}
+
+/* sections.scss */
+.guarantees {
+    /* previous .guarantees styles here */
+    .shopOptions {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .guaranteeContainer {
+        width: calc(25% - 40px);
+        margin: 0 20px;
+    }
+}
+
+    /* typography.scss */
+
+    p {
+        /* previous paragraph styles in here */
+        &.valueTitle {
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin: 10px 0;
+        }
+    }
+
